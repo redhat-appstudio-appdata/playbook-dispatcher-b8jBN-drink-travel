@@ -1,0 +1,22 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: playbook-dispatcher
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: playbook-dispatcher
+    app.kubernetes.io/part-of: playbook-dispatcher
+  name: playbook-dispatcherhfbv
+spec:
+  port:
+    targetPort: 9000
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: playbook-dispatcher
+    weight: 100
+status: {}
