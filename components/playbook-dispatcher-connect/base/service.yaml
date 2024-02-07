@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: playbook-dispatcher-connect
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: playbook-dispatcher-connect
+    app.kubernetes.io/part-of: playbook-dispatcher
+  name: playbook-dispatcher-connect
+spec:
+  ports:
+  - port: 9000
+    targetPort: 9000
+  selector:
+    app.kubernetes.io/instance: playbook-dispatcher-connect
+status:
+  loadBalancer: {}
