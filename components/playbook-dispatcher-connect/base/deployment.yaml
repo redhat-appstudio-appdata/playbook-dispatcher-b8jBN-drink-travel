@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: playbook-dispatcher-connect
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/hcc-pipeline-tenant/playbook-dispatcher/playbook-dispatcher-connect@sha256:79eaaf48947ef5514c75aa6e05971196cea12ee3c3c587a29c83e42dc25c4c60
+      - image: quay.io/redhat-user-workloads/hcc-pipeline-tenant/playbook-dispatcher/playbook-dispatcher-connect@sha256:a8a285a47c5cf251d7525e456267c756979533c8d75247975a71ba66d96da6cd
         imagePullPolicy: Always
         name: container-image
         ports:
