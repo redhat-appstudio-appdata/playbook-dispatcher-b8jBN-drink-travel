@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: playbook-dispatcher-connect
     app.kubernetes.io/part-of: playbook-dispatcher
-  name: playbook-dispatcher-conneygen
+  name: playbook-dispatcher-conne2feo
 spec:
   port:
     targetPort: 9000
