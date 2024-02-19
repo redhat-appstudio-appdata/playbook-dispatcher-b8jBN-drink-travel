@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: playbook-dispatcher
     app.kubernetes.io/part-of: playbook-dispatcher
-  name: playbook-dispatcherhfbv
+  name: playbook-dispatcheryo0e
 spec:
   port:
     targetPort: 9000
