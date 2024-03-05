@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/hcc-pipeline-tenant/playbook-dispatcher/playbook-dispatcher@sha256:6b23f0f727df5b1f0d30863bfa0548e377eab876e19c2ca93b8cd2590526f9e6
+      - image: quay.io/redhat-user-workloads/hcc-pipeline-tenant/playbook-dispatcher/playbook-dispatcher@sha256:170748be865d3d8f83967c9404f0743053115035b9d596ae18534cc11f851ead
         name: container-image
         resources: {}
 status: {}
